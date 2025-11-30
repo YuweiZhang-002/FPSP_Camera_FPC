@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "rpi-lib-kicad-rp235x")(type "KiCad")(uri "${KIPRJMOD}/custom_fp/RPI/rpi-lib-kicad-rp235x.kicad_sym")(options "")(descr ""))
+)
