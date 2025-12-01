@@ -3031,14 +3031,24 @@
 		(uuid "ee8db57d-af72-486f-ba89-dca035a467ce")
 	)
 	(label "IMAGE_OUT_1_1-"
-		(at 36.83 83.82 180)
+		(at 36.83 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "26aba2e6-46d2-40a6-87e2-875d23f7bf3c")
+		(uuid "00e9b751-9c9e-4b82-b8d0-65d06751b02c")
+	)
+	(label "IMAGE_OUT_1_1-"
+		(at 80.01 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "410a6bfd-b66c-4b52-9186-3d3cadb7332e")
 	)
 	(label "USB_D1-"
 		(at 16.51 30.48 0)
@@ -3060,16 +3070,6 @@
 		)
 		(uuid "6e69e9d4-e3ca-439c-88da-12779fe5cea0")
 	)
-	(label "IMAGE_OUT_1_1-"
-		(at 80.01 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "73c2d30f-f1b0-4cf4-a470-45c579469fe2")
-	)
 	(label "USB_D1-"
 		(at 63.5 31.75 180)
 		(effects
@@ -3079,6 +3079,16 @@
 			(justify right bottom)
 		)
 		(uuid "76309048-9a6d-4a45-bdfd-ed4a9aa29087")
+	)
+	(label "POSITION_OUT_1"
+		(at 80.01 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d823146-ecaf-4656-9070-15d5e72f8b91")
 	)
 	(label "IMAGE_OUT_1_1+"
 		(at 36.83 73.66 180)
@@ -3111,16 +3121,6 @@
 		(uuid "917fe313-ea27-4afd-a78c-405830cfc7bd")
 	)
 	(label "IMAGE_OUT_2_1-"
-		(at 80.01 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9747ec40-d436-45df-a24b-abfcec496599")
-	)
-	(label "POSITION_OUT_1"
 		(at 36.83 78.74 180)
 		(effects
 			(font
@@ -3128,7 +3128,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "a5851157-a7f9-4bdd-bc32-b4112e08b3af")
+		(uuid "96449e68-c201-4293-a96d-ee210edaf4ff")
 	)
 	(label "SWD_1"
 		(at 119.38 25.4 180)
@@ -3150,6 +3150,16 @@
 		)
 		(uuid "c8010904-5506-4159-954b-f7fec0cd1c5c")
 	)
+	(label "IMAGE_OUT_2_1-"
+		(at 80.01 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cddbd447-7042-4284-9ee8-ffebd078da0e")
+	)
 	(label "IMAGE_OUT_2_1+"
 		(at 36.83 76.2 180)
 		(effects
@@ -3159,16 +3169,6 @@
 			(justify right bottom)
 		)
 		(uuid "cfae6d5b-fae9-42e0-a44a-9f6395d8b9e8")
-	)
-	(label "POSITION_OUT_1"
-		(at 80.01 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d17ca431-dc1b-44f5-a562-78196996bd61")
 	)
 	(label "SWD_1"
 		(at 63.5 36.83 180)
@@ -3190,15 +3190,15 @@
 		)
 		(uuid "e17eb89e-87cd-4592-b095-aa1dfb7c53e8")
 	)
-	(label "IMAGE_OUT_2_1-"
-		(at 36.83 81.28 180)
+	(label "POSITION_OUT_1"
+		(at 36.83 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "e248efe7-1712-4da9-89b3-718b0afd3850")
+		(uuid "f9eb580b-a1c0-49b9-988f-bb887ea8a33f")
 	)
 	(label "IMAGE_OUT_2_1+"
 		(at 80.01 73.66 180)
