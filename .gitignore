@@ -32,7 +32,7 @@ fp-lib-table
 
 # Exported BOM files
 *.xml
-*.csv
+#*.csv
 
 # Archived Backups (KiCad 6.0)
 **/*-backups/*.zip
