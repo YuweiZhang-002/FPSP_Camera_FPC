@@ -17125,130 +17125,6 @@
 		)
 	)
 	(gr_rect
-		(start 59.622265 57.369144)
-		(end 68.122265 65.869144)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "2a52d574-0656-4e15-8bfe-fbb119ecb65f")
-	)
-	(gr_line
-		(start 53.022265 41.019144)
-		(end 53.022265 23.019144)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "3cb6da14-c5ba-4441-bd81-04761d0b93f6")
-	)
-	(gr_line
-		(start 85.022265 23.019144)
-		(end 85.022265 41.019144)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "405be125-4511-4da1-b9a7-1fee7c03fd19")
-	)
-	(gr_rect
-		(start 76.622265 55.369144)
-		(end 80.922265 67.869144)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "5111bb17-f799-4b58-9334-4d2f49095859")
-	)
-	(gr_line
-		(start 82.022265 18.719144)
-		(end 85.022265 23.019144)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "54c6d525-15ad-4710-ab0e-54b913dc40b2")
-	)
-	(gr_rect
-		(start 68.122265 58.369144)
-		(end 76.622265 64.869144)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "677b45ac-e662-49c3-994c-a141554a7526")
-	)
-	(gr_line
-		(start 85.022265 41.019144)
-		(end 82.022265 45.019144)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "9956b1e8-89bf-4dfa-adba-3df873e25d2a")
-	)
-	(gr_rect
-		(start 31.522265 17.519144)
-		(end 46.522265 22.519144)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill no)
-		(layer "Dwgs.User")
-		(uuid "b581a919-1afe-4508-b4e8-aabe8392bb8a")
-	)
-	(gr_line
-		(start 53.022265 23.019144)
-		(end 56.022265 18.719144)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "bab9dc94-9248-4da9-8068-f113c2019a2a")
-	)
-	(gr_line
-		(start 56.022265 18.719144)
-		(end 82.022265 18.719144)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "d7ad1c30-2c5a-496f-b6da-76e3e9b9d8ad")
-	)
-	(gr_line
-		(start 56.022265 45.019144)
-		(end 53.022265 41.019144)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Dwgs.User")
-		(uuid "db0fedff-22c6-4df4-81ee-b4b77f84a66e")
-	)
-	(gr_line
-		(start 82.022265 45.019144)
-		(end 56.022265 45.019144)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "dd1f10c7-594b-44b5-b7e3-44e9e9efcf8c")
-	)
-	(gr_rect
 		(start 18.960265 16.619144)
 		(end 104.684265 46.569144)
 		(stroke
@@ -17258,6 +17134,130 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "369edf53-40c1-474c-84b2-475c57e3db77")
+	)
+	(gr_line
+		(start 53.022265 41.019144)
+		(end 53.022265 23.019144)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "3cb6da14-c5ba-4441-bd81-04761d0b93f6")
+	)
+	(gr_line
+		(start 85.022265 23.019144)
+		(end 85.022265 41.019144)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "405be125-4511-4da1-b9a7-1fee7c03fd19")
+	)
+	(gr_line
+		(start 82.022265 17.019144)
+		(end 85.022265 23.019144)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "54c6d525-15ad-4710-ab0e-54b913dc40b2")
+	)
+	(gr_line
+		(start 85.022265 41.019144)
+		(end 82.022265 46.319144)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "9956b1e8-89bf-4dfa-adba-3df873e25d2a")
+	)
+	(gr_line
+		(start 53.022265 23.019144)
+		(end 56.022265 17.019144)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "bab9dc94-9248-4da9-8068-f113c2019a2a")
+	)
+	(gr_line
+		(start 56.022265 17.019144)
+		(end 82.022265 17.019144)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "d7ad1c30-2c5a-496f-b6da-76e3e9b9d8ad")
+	)
+	(gr_line
+		(start 56.022265 46.319144)
+		(end 53.022265 41.019144)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "db0fedff-22c6-4df4-81ee-b4b77f84a66e")
+	)
+	(gr_line
+		(start 82.022265 46.319144)
+		(end 56.022265 46.319144)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "User.1")
+		(uuid "dd1f10c7-594b-44b5-b7e3-44e9e9efcf8c")
+	)
+	(gr_rect
+		(start 54.172265 25.819144)
+		(end 62.672265 34.319144)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "1ebd8789-4a47-4d09-9c4b-4094bd325f70")
+	)
+	(gr_rect
+		(start 71.172265 23.819144)
+		(end 75.472265 36.319144)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "36762440-41da-4131-bd75-e7dcc13ee28b")
+	)
+	(gr_rect
+		(start 62.672265 26.819144)
+		(end 71.172265 33.319144)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "ac4c3cb7-98fb-4352-97f0-7531626d58a9")
+	)
+	(gr_rect
+		(start 31.522265 17.519144)
+		(end 46.522265 22.519144)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "User.2")
+		(uuid "b581a919-1afe-4508-b4e8-aabe8392bb8a")
 	)
 	(gr_text "VDD"
 		(at 21.834765 27.569144 0)
@@ -17311,10 +17311,22 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "camera"
-		(at 61.012265 62.119144 0)
-		(layer "Dwgs.User")
-		(uuid "e3884ea3-72cc-4dbe-99af-4d2f5ed05d94")
+	(gr_text "Stiffener 1: Polyamide\nStiffener 1 Thickness: 0.2mm\nStiffener 1 Location: see User.1 layer"
+		(at 68.422265 56.269144 0)
+		(layer "User.3")
+		(uuid "5e7eaa4a-2416-4ced-a645-a96fecdb9fdf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Stiffener 2: FR4\nStiffener 2 Thickness: 0.2mm\nStiffener 2 Location: see User.2 layer"
+		(at 68.472265 62.369144 0)
+		(layer "User.3")
+		(uuid "d5356702-19cc-4fc8-a3f4-47c04fa4b3dc")
 		(effects
 			(font
 				(size 1 1)
@@ -25607,13 +25619,9 @@
 		)
 	)
 	(group ""
-		(uuid "537d1212-2a0a-45a5-a24c-27d4869e2da1")
-		(members "f1678b0e-b19c-46ce-8f6d-c3e9ffc45a36")
-	)
-	(group ""
-		(uuid "f1678b0e-b19c-46ce-8f6d-c3e9ffc45a36")
-		(members "2a52d574-0656-4e15-8bfe-fbb119ecb65f" "5111bb17-f799-4b58-9334-4d2f49095859"
-			"677b45ac-e662-49c3-994c-a141554a7526" "e3884ea3-72cc-4dbe-99af-4d2f5ed05d94"
+		(uuid "f63cc05e-9e3d-429e-bc59-c609f7c0c127")
+		(members "1ebd8789-4a47-4d09-9c4b-4094bd325f70" "36762440-41da-4131-bd75-e7dcc13ee28b"
+			"ac4c3cb7-98fb-4352-97f0-7531626d58a9"
 		)
 	)
 	(generated
