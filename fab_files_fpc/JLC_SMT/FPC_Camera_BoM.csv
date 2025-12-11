@@ -1,0 +1,35 @@
+Comment,Designator,Footprint,LCSC Part Number,Qty,DNP,Exclude from BOM,Exclude from Board
+0.1u,"C1,C2,C15,C16,C21,C22,C23",Capacitor_SMD:C_0402_1005Metric,C60474,7,,,
+100n,"C3,C5,C6,C7,C8,C9,C10,C11,C12,C13,C14,C25,C32",Capacitor_SMD:C_0402_1005Metric,C60474,13,,,
+4.7u,"C4,C17,C18,C19",Capacitor_SMD:C_0402_1005Metric,C106859,4,,,
+100n,C20,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C1590,1,DNP,,Excluded from board
+22pF,C24,Capacitor_SMD:C_0402_1005Metric,C106203,1,,,
+1u,"C26,C27,C28,C29,C30,C31",Capacitor_SMD:C_0402_1005Metric,C106253,6,,,
+LED,"D1,D2,D3,D4",Diode_SMD:D_0603_1608Metric,C2286,4,,,
+MountingHole,"H1,H2,H3,H4",MountingHole:MountingHole_2.7mm_M2.5,N/A,4,,,
+Conn_01x24_Socket,J1,Connector_FFC-FPC:TE_2-1734839-3_1x23-1MP_P0.5mm_Horizontal,C6668214,1,,,
+Conn_02x04_Counter_Clockwise,J2,Connector_Molex:Molex_SlimStack_502426-0810_2x04_P0.40mm_Vertical,C563931,1,,,
+Conn_02x07_Counter_Clockwise,J3,Connector_Molex:Molex_SlimStack_502426-1410_2x07_P0.40mm_Vertical,C563932,1,,,
+SM03B-SRSS-TB,J4,Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal,N/A,1,DNP,,Excluded from board
+USB_B_Micro,J5,RP2350_60QFN_minimal:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal_modified,N/A,1,DNP,,Excluded from board
+Conn_02x06_Odd_Even,J6,Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical,N/A,1,DNP,,Excluded from board
+Conn_01x02,J7,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,C492401,1,,,
+SolderJumper_2_Open,"JP1,JP2,JP3",Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm,N/A,3,,Excluded from BOM,
+3.3u,L1,Inductor_SMD:L_pol_2016,C42411119,1,,,
+10k,R1,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C60489,1,,,
+33,R2,Resistor_SMD:R_0402_1005Metric,C15011,1,,,
+27,"R3,R4",Resistor_SMD:R_0402_1005Metric,C15011,2,,,
+DNF,"R5,R8",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,N/A,2,DNP,,Excluded from board
+1k,"R6,R15",Resistor_SMD:R_0402_1005Metric,C105637,2,,,
+0,R7,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,N/A,1,DNP,,Excluded from board
+0R,"R9,R11,R13",Resistor_SMD:R_0402_1005Metric,C60485,3,,,
+DNF,R10,Resistor_SMD:R_0402_1005Metric,N/A,1,,,
+10k,"R12,R14,R16,R17,R18,R19,R20,R21",Resistor_SMD:R_0402_1005Metric,C60489,8,,,
+TestPoint,TP1,TestPoint:TestPoint_Pad_D1.0mm,N/A,1,,,
+ICM-45686,U1,ICM_45686:IC_ICM-45686,N/A,1,,,
+W25Q128JVS,U2,Package_SO:SOIC-8_5.3x5.3mm_P1.27mm,N/A,1,DNP,,Excluded from board
+RP2354A_60QFN,U3,projLib:RP2350-QFN-60-1EP_7x7_P0.4mm_EP3.4x3.4mm_ThermalVias,C41378174,1,,,
+TLV75533PDRV,U4,Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm,C2861750,1,,,
+TLV73328PDRV,U5,Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm,N/A,1,,,
+TLV73315PDRV,U6,Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm,N/A,1,,,
+SiT8008xx-1x-xxE,Y1,Oscillator:Oscillator_SMD_SiT_PQFN-4Pin_2.5x2.0mm,C825127,1,,,
