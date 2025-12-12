@@ -23382,7 +23382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:TE_2-1734839-3_1x23-1MP_P0.5mm_Horizontal"
+		(property "Footprint" "52435-2471:MOLEX_52435-2471"
 			(at 266.7 129.54 0)
 			(effects
 				(font

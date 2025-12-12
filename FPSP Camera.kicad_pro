@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 2.7,
-          "width": 2.7
+          "drill": 0.0,
+          "height": 3.0375,
+          "width": 2.25125
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -514,8 +514,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "fab_files/gerber/",
-      "pos_files": "fab_files/",
+      "plot": "fab_files_fpc/gerber_fr4_1/",
+      "pos_files": "fab_files_fpc/JLC_SMT/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
