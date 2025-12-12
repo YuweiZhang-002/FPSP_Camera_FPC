@@ -24,7 +24,7 @@ This repo contains FPC schematics of the newly developed FPSP camera project on 
 - RP2345A and ICM45686 IMU ordered separately to test the functionality. Once it passes the prototype test, order at JLCPCB via **global sourcing** and prep for next assembly
 
 ### TODO
- - [ ] Place JLCPCB order
+ - [x] Place JLCPCB order
  - [ ] functionality test, FR4 prototype
  - [ ] functionality test, FPC stiffener position
 ------ 
