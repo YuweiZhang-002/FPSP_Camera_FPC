@@ -1,0 +1,14 @@
+# Build output
+build/
+**/build/
+
+# Vendored Pico SDK copy — NOT redistributed; obtained via PICO_SDK_PATH / Pico extension
+pico-sdk-master/
+
+# Keep VS Code project config tracked
+!.vscode/*
+
+# OS / editor noise
+Thumbs.db
+.DS_Store
+*.swp

@@ -1,0 +1,68 @@
+; ============================================================================
+;  heartbeat.pio
+; ----------------------------------------------------------------------------
+;  PIO 心跳程序 - 单引脚验证模块
+;
+;  目的：
+;      在 Camera Bring-up 测试中，用 PIO 状态机驱动 *一个* GPIO 周期翻转，
+;      用来肉眼/示波器确认：
+;          1) RP2354 上电正常
+;          2) 系统时钟 (clk_sys) 在跑
+;          3) PIO 子系统初始化无误
+;          4) 整个工程已经成功烧录并运行到 while(1) 之前
+;
+;  特意只占用一个 SET 引脚，不抢占 I2C/PWM/相机信号脚资源。
+;
+;  时序设计：
+;      内部使用 X 计数器做粗延时，配合 C 端 sm_config_set_clkdiv 把状态机
+;      时钟降到约几 kHz，整体得到 ~1 Hz 的可见慢闪烁。
+; ============================================================================
+
+.program heartbeat
+
+.wrap_target
+    set pins, 1           ; LED 拉高
+    set x, 31             ; 外层计数 (32 次循环)
+on_delay:
+    nop          [31]     ; 32 个 SM 周期
+    jmp x--, on_delay     ; 共约 32 * 33 = 1056 SM 周期
+
+    set pins, 0           ; LED 拉低
+    set x, 31
+off_delay:
+    nop          [31]
+    jmp x--, off_delay
+.wrap
+
+
+% c-sdk {
+/**
+ * @brief 初始化并启动 heartbeat PIO 状态机
+ *
+ * @param pio        使用的 PIO 实例 (pio0 / pio1)
+ * @param sm         状态机编号 (0~3)
+ * @param offset     程序加载偏移 (pio_add_program 返回值)
+ * @param pin        作为 SET 引脚的 GPIO 编号 (仅 1 个引脚)
+ *
+ * 时钟换算：
+ *   单次 ON+OFF 大约 2 * 1058 ≈ 2116 个 SM 周期。
+ *   PIO clkdiv 上限 65536, 取 65535 时:
+ *       150MHz / 65535 ≈ 2289 Hz SM clock
+ *       2289 / 2116    ≈ 1.08 Hz 可见慢闪
+ *   即使 clk_sys 改成 125/200 MHz, 也只是闪烁速率变 0.9~1.4 Hz, 不影响判断
+ */
+static inline void heartbeat_program_init(PIO pio, uint sm, uint offset, uint pin) {
+    // PIO 拥有该引脚的控制权
+    pio_gpio_init(pio, pin);
+    pio_sm_set_consecutive_pindirs(pio, sm, pin, 1, true);
+
+    pio_sm_config c = heartbeat_program_get_default_config(offset);
+    sm_config_set_set_pins(&c, pin, 1);
+
+    // 直接拉到接近最大 clkdiv, 得到肉眼可见的慢闪
+    sm_config_set_clkdiv(&c, 65535.0f);
+
+    pio_sm_init(pio, sm, offset, &c);
+    pio_sm_set_enabled(pio, sm, true);
+}
+%}
