@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Read(//c/Users/ZYW/.pico-sdk/cmake/**)",
-      "Read(//c/Users/ZYW/.pico-sdk/sdk/**)",
-      "Read(//c/Users/ZYW/.pico-sdk/toolchain/**)"
-    ]
-  }
-}
