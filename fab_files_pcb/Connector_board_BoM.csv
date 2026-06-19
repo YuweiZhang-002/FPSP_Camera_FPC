@@ -1,0 +1,8 @@
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+D1,1,LED,,,,Diode_SMD:D_0603_1608Metric,~
+J1,1,USB_B_Micro,,,,Connector_USB:USB_Micro-B_Molex_47346-0001,~
+J2,1,Conn_02x04_Counter_Clockwise,,,,Connector_Molex:Molex_SlimStack_502430-0820_2x04_P0.40mm_Vertical,~
+J3,1,Conn_02x06_Counter_Clockwise,,,,Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical,~
+J4,1,Conn_02x07_Counter_Clockwise,,,,Connector_Molex:Molex_SlimStack_502430-1410_2x07_P0.40mm_Vertical,~
+J5,1,SM03B-SRSS-TB,,,,Connector_JST:JST_SH_SM03B-SRSS-TB_1x03-1MP_P1.00mm_Horizontal,~
+R1,1,10k,,,,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,~
