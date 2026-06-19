@@ -1821,6 +1821,10 @@
 		(uuid "425bdd57-a1e7-4cfc-9dd1-45ea024920f8")
 	)
 	(no_connect
+		(at 76.2 25.4)
+		(uuid "824b7a00-350f-4612-a623-aba939b2624f")
+	)
+	(no_connect
 		(at 111.76 71.12)
 		(uuid "8f44e234-69c9-455d-9a27-278a8b287164")
 	)
@@ -3142,83 +3146,6 @@
 			(project "Connector_board"
 				(path "/d47a3cbb-9124-4e72-898a-608406011dc9"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 76.2 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3c38ced2-8d98-4df0-988e-b5696d69bd74")
-		(property "Reference" "#PWR04"
-			(at 76.2 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 78.232 22.352 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 76.2 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 76.2 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6906c27d-22f9-4f23-beb0-b3f784a6f8aa")
-		)
-		(instances
-			(project "Connector_board"
-				(path "/d47a3cbb-9124-4e72-898a-608406011dc9"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)

@@ -8990,6 +8990,10 @@
 		(uuid "68f83810-dbaa-40c4-8572-d36d20f9be49")
 	)
 	(no_connect
+		(at 57.15 255.27)
+		(uuid "6bba87b3-ec30-4120-b65b-73d51a07c368")
+	)
+	(no_connect
 		(at 336.55 52.07)
 		(uuid "6c4fd999-5b2c-4e0b-a185-a8061522011f")
 	)
@@ -9442,16 +9446,6 @@
 			(type default)
 		)
 		(uuid "1df2a56d-742c-4043-a3d4-c898afe8c1a9")
-	)
-	(wire
-		(pts
-			(xy 55.88 255.27) (xy 59.69 255.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ec9d3e4-a81b-4586-8870-27f6a139c87a")
 	)
 	(wire
 		(pts
@@ -12192,6 +12186,16 @@
 			(type default)
 		)
 		(uuid "e51929cb-4cf5-41f1-a311-8cdbf7d9972c")
+	)
+	(wire
+		(pts
+			(xy 55.88 255.27) (xy 57.15 255.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e571f541-90a7-468e-8181-eb9d5175caf9")
 	)
 	(wire
 		(pts
@@ -19456,84 +19460,6 @@
 			(project "FPSP Camera"
 				(path "/b8279e3f-7ea4-46f5-abf2-a9173e16562f"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 59.69 255.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "32189993-a88c-4b5e-948b-c16e139b2d8b")
-		(property "Reference" "#PWR067"
-			(at 59.69 259.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 59.69 250.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 59.69 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "583c8464-d9ab-4343-9e28-7e6e47f9ec31")
-		)
-		(instances
-			(project "FPSP Camera"
-				(path "/b8279e3f-7ea4-46f5-abf2-a9173e16562f"
-					(reference "#PWR067")
 					(unit 1)
 				)
 			)
